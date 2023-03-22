@@ -1,0 +1,22 @@
+#blog_section{
+    background-color:$bgColor;
+    .blog_element{
+     flex-basis:100%;
+     background-color:$whiteColor; 
+    }
+    .blog_item{
+       flex-basis:32%;
+       img{
+            width:100%;
+        }
+        h2, p{
+            margin-left:15px;
+        }
+        h2{
+            margin-top:10px;
+        }
+        
+        
+    }
+    
+}

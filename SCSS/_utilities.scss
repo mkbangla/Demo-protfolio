@@ -1,0 +1,128 @@
+//utilities
+//color
+$pColor:#fab1a0;
+$sColor:#00b894;
+$bgColor:#f8c291;
+$whiteColor:#ffffff;
+$darkColor:#15094d;
+
+
+//Font Weight
+$fontWSM:400;
+$fontWMD:600;
+$fontWXL:800;
+
+body, p{    
+        font-size:16px;
+        font-weight:$fontWSM;    
+}
+p{
+    margin:0 0 15px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight:$fontWXL;
+    line-height:1.2em;
+    margin:0 0 15px;    
+}
+h1, h2{
+    color:$darkColor;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    line-height:1em;
+}
+
+//main width
+    $small:200px;
+    $medium:767px; 
+
+//Container
+.container{
+     width:1200px;
+    margin:0 auto;
+    @media screen and (min-width:$small) and (max-width:$medium){
+        width:96%;
+    }
+}
+
+
+//Paddings
+$paddingSM:10px 0;
+.paddingXL{
+    padding:60px 0;
+    @media screen and (min-width:$small) and (max-width:$medium){
+        padding:25px 0;
+    }
+};
+
+//Margin m-top
+.m-top{
+    margin-top: 40px;
+    @media screen and (min-width:$small) and (max-width:$medium){
+        margin-top:20px;
+    }
+}
+
+//Social_Area
+.social_icon{
+    ul{
+        text-align:right;
+        li{
+         margin-left:5px;
+        } 
+        a{
+         display:block;
+         background-color:$sColor;
+         color:$whiteColor;
+         width:40px;
+         height:40px;
+         text-align:center;
+         font-size:17px;
+         border-radius:50%;
+         padding-top:8px;
+         i{margin:0;}
+         &:hover{
+             color:$darkColor;
+             background-color:$bgColor;
+         }
+    
+        }
+     }
+}
+
+//Button design
+.btn_cta{
+    background-color:$darkColor;
+    color:$whiteColor;
+    padding:10px 15px;
+    border-radius:10px;
+    display:inline-block;
+    margin-top:5px;
+    font-weight:$fontWMD;
+    &:hover{
+        background-color:$pColor;
+        color:$darkColor;
+    }
+}
+
+
+//title style
+.title{
+    font-size:60px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    line-height:1em;
+    color:$darkColor;
+    @media screen and (min-width:$small) and (max-width:$medium){
+        font-size:35px;
+    }
+}
+
+//sub title
+.sub-title{
+    font-size:25px;
+    font-weight:$fontWMD;
+    letter-spacing:2px;
+    @media screen and (min-width:$small) and (max-width:$medium){
+        font-size:18px;
+    }
+}

@@ -1,0 +1,42 @@
+.demo_project{
+   flex-basis:50%;
+   display:flex; 
+   flex-wrap:wrap;
+   justify-content:space-between;
+   .child-project{
+    flex-basis:48%;
+    text-align:center;
+    background-color:$bgColor;
+    border-radius:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+    h2{
+        font-size:30px;
+        color:$darkColor;
+        margin-bottom:0;   
+    }
+    h6{
+        font-size:20px;
+        color:$whiteColor;
+        margin-bottom:0;
+    }
+   }
+   
+}
+.about_me{
+    flex-basis:46%;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    h6{
+       font-size:30px;
+       letter-spacing:2px;
+       font-weight:$fontWXL;
+    }
+    h1{
+        font-size:40px;
+        font-weight:$fontWXL;
+        color:$darkColor;
+    }
+
+   }

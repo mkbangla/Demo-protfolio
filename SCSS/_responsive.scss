@@ -1,0 +1,131 @@
+@media screen and (min-width:$small) and (max-width:$medium){
+   //header Area
+   #header_area{
+    .inner{
+        display:block;
+    }
+    //Top Header Area
+    .top_header_area{
+        .adress, .Phone_number, .email{
+            display:none;
+        }
+        .social_icon{
+            ul{
+                text-align:center;
+            }
+        }
+        .mobile_bar{
+            display:block;
+            position:absolute;
+            right:10px;
+            top:10px;
+            i{
+                color:$whiteColor;
+                font-size:25px;
+                cursor:pointer;
+            }
+        }
+    }
+    
+   } 
+   //hero area
+   
+#hero_area{
+   
+     .inner{
+        
+        flex-direction:column;
+    }
+    .about_me{
+        flex-basis:100%;
+        padding:20px;
+        order:2;
+    }
+    .about_img{
+        flex-basis:100%;        
+        order:1;       
+    }
+    
+}  
+//About area 
+#abou_section{
+    .inner{
+        flex-direction:column;
+    }
+    .demo_project{
+        flex-basis:100%;
+        h2{
+            font-size:20px;
+        }
+        h6{
+            font-size:12px;
+        }
+    }
+    .about_me{
+        flex-basis:100%;
+        h6{
+            margin:5px 0 5px 0;
+            font-size:18px;
+        }
+        h1{
+            font-size:25px;
+        }
+    }
+}
+
+//Service Section
+#service_section{
+    .inner{
+        flex-direction:column;
+    }
+    .child_service{
+        margin-bottom:10px;
+        i{
+            margin-bottom:10px;
+        }
+        h2{
+            font-size:20px;
+            margin-bottom:10px;
+        }
+        p{
+            font-size:12px;
+        }
+    }
+}
+
+//Project Section
+#project_section{
+    .inner_grid{
+        display:block;
+    }
+    .child_project{
+        margin-bottom:15px;
+    }    
+}
+
+//Blog Section
+#blog_section{
+    .inner{
+        flex-direction:column;
+    }
+    .blog_item{
+        margin-bottom:15px;
+    }
+}
+
+//Contact Area
+#contact_section{
+    .inner, .contact-info{
+        flex-direction:column;
+    }
+    .contact-info{
+        div{
+            margin-bottom:20px;
+        }
+        iframe{
+            margin:-5px 0 20px 0;
+        }
+    }
+}
+
+}

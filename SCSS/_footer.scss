@@ -1,0 +1,33 @@
+#footer_section{
+    background-color:$darkColor;
+    position:relative;
+    .top-arrow{
+        position:absolute;
+        bottom:10px;
+        right: 15px;
+        font-size:40px;
+        i{
+            background-color:$pColor;
+            padding:10px;
+            border-radius:5px;
+            &:hover{
+                background-color:$bgColor;
+                color:$darkColor;
+            }
+        }
+    }
+    img{
+        width:200px;
+        margin: 10px auto 20px;
+    }
+    .social_icon ul{
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .copy-right{
+        text-align:center;
+        color:$whiteColor;
+        font-size:12px;
+        font-weight:fontWSM;
+    }
+}

@@ -1,0 +1,41 @@
+#hero_area{
+    padding-top:50px;
+    background-color:$bgColor;
+    img{
+        display:block;
+        max-width: 100%;
+        height:auto;
+    }
+    .about_me{
+        flex-basis:40%;
+        order:1;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        margin-right:20px;
+        
+        h5{
+            font-size:25px;
+            letter-spacing:3px;
+            font-weight:$fontWMD;
+            margin-bottom:0;
+
+        }
+        h2{
+            font-size:40px;
+            text-transform:uppercase;
+            line-height:1em;
+            letter-spacing:2px;
+            
+        }
+        p{
+            text-align:justify;
+        }
+    }
+    .about_img{
+        flex-basis:60%;
+        order:2;
+       
+    }    
+    
+}

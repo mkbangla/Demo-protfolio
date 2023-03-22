@@ -1,0 +1,34 @@
+#service_section{
+    background-color:$bgColor;
+    .child_service{
+        background-color:$whiteColor;
+        padding:40px;
+        flex-basis:32%;
+        border-radius:10px;
+        box-shadow:0 0 10px #d1d1d1;
+        transition:0.5s;
+        i{
+            color:$pColor;
+            font-size:50px;
+            margin-bottom:20px;
+        }
+        h2{
+            font-size:30px;
+            text-transform:uppercase;
+            letter-spacing:1px;
+            color:$darkColor;
+        }
+        &:hover{
+            background-color:$darkColor;
+            h2{
+                color:$whiteColor;
+            }
+            i{
+                color:$sColor;
+            }
+            p{
+                color:$whiteColor;
+            }
+        }
+    }
+}
